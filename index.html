@@ -3,16 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
-    <script src="script.js" defer></script>
+    <title>Wisdom Oracle</title>
     <link rel="stylesheet" href="style.css" />
-    <title>Frontend Mentor | Advice generator app</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
   </head>
   <body>
-    <div id="container" class="flip">
-      <h1 id="title">Pro Tip</h1>
-      <p id="advice"></p>
-      <button id="new-advice">Another one!</button>
+    <div class="container">
+      <div class="card">
+        <div class="card-inner">
+          <div class="oracle-icon">
+            <i class="fas fa-brain"></i>
+          </div>
+          <h1>Wisdom Oracle</h1>
+          <p id="advice" class="advice-text"></p>
+          <button id="new-advice" class="wisdom-button">
+            <i class="fas fa-lightbulb"></i>
+            <span>Enlighten Me</span>
+          </button>
+        </div>
+      </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
